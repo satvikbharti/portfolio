@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.custom-toast {
+  margin-top: 80px; /* navbar height */
+}
+[id] {
+  scroll-margin-top: 12vh;
+}
+
