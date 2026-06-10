@@ -12,7 +12,7 @@ const Projects = () => {
             link: "https://your-project-link-1.com"
         },
         {
-            image: "/images/p2.jpg",
+            image: ,
             title: "Password Manager ",
             category: "Branding , Motion",
             link: "https://passop-mongo-phi.vercel.app/"
