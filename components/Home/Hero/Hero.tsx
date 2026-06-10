@@ -46,7 +46,7 @@ const Hero = () => {
           data-aos="fade-up"
           className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center'
         >
-          Hi! I'm Satvik - A Passionate
+          <p>I am Full Stack Developer</p>
           <span className='text-cyan-200 font-bold'>
             <Typewriter
               options={{
