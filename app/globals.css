@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
 
 .custom-toast {
-  margin-top: 80px; /* navbar height */
+  margin-top: 80px;
 }
+
 [id] {
   scroll-margin-top: 12vh;
 }
-

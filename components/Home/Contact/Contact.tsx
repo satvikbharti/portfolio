@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 
 
 const Contact = () => {

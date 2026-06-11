@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 import { BiDownload } from 'react-icons/bi'
 import { FaCode } from 'react-icons/fa'
 import { HiBars3BottomRight } from 'react-icons/hi2'
-import 'react-toastify/dist/ReactToastify.css'
 import { ToastContainer } from 'react-toastify'
 import { toast } from 'react-toastify'
 
