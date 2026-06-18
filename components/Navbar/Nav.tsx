@@ -69,7 +69,7 @@ const Nav = ({ openNav }: Props) => {
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
               <FaCode className='w-5 h-5 text-black' />
             </div>
-            <h1 className='text-xl hidden sm:block text-white font-bold'>SATVIK</h1>
+            <h1 className='text-xl hidden sm:block text-white font-bold'>SATVIK BHARTI</h1>
           </div>
 
           <div className='hidden lg:flex items-center space-x-10'>
