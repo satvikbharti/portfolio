@@ -90,7 +90,7 @@ const Nav = ({ openNav }: Props) => {
               className='cursor-pointer px-8 py-3.5 rounded-lg bg-blue-800 hover:bg-blue-900 text-white flex items-center space-x-2'
             >
               <BiDownload className='w-5 h-5' />
-              <span>Download CV</span>
+              <span>Download Resume</span>
             </button>
 
 
