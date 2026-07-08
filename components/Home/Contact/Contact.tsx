@@ -117,7 +117,7 @@ const Contact = () => {
                             </div>
                         </a>
                     </div>
-                </div>
+               
 
                 <div
                     data-aos="zoom-in" data-aos-anchor-placement="top-center"
@@ -156,7 +156,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-       
+        </div>
         </>
     );
 };
