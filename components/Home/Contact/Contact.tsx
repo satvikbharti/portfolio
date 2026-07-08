@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
@@ -57,7 +57,7 @@ const Contact = () => {
             <ToastContainer
                 position="top-right"
                 toastClassName="custom-toast"
-               
+
                 autoClose={5000}
                 hideProgressBar={false}
                 newestOnTop={false}
@@ -101,63 +101,62 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center mt-8 space-x-3">
-                            <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-800 transition-all duration-300">
-                                <FaFacebookF className="text-white w-6 h-6" />
-                            </div>
 
-                            <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer hover:bg-red-600 transition-all duration-300">
-                                <FaYoutube className="text-white w-6 h-6" />
-                            </div>
 
-                            <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer hover:bg-black transition-all duration-300">
-                                <FaX className="text-white w-6 h-6" />
-                            </div>
 
+
+
+
+                        <a
+                            href="https://www.linkedin.com/in/satvik-bharti-964942229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <div className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-500 transition-all duration-300">
-                                <FaInstagram className="text-white w-6 h-6" />
+                                <FaLinkedin className="text-white w-6 h-6" />
                             </div>
-                        </div>
-                    </div>
-
-                    <div
-                        data-aos="zoom-in" data-aos-anchor-placement="top-center"
-                        className="md:px-10 p-5 bg-[#131332] rounded-lg">
-                        <form ref={form} onSubmit={sendEmail}>
-                            <input
-                                name="name"
-                                type="text"
-                                placeholder="Name"
-                                className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-                            />
-
-                            <input
-                                name="user_email"
-                                type="email"
-                                placeholder="Email Address"
-                                className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-                            />
-
-                            <input
-                                name="phone"
-                                type="text"
-                                placeholder="Mobile Number"
-                                className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-                            />
-
-                            <textarea
-                                name="message"
-                                placeholder="Your Message"
-                                className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-[10rem]"
-                            />
-
-                            <button type="submit" className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">
-                                Send Message
-                            </button>
-                        </form>
+                        </a>
                     </div>
                 </div>
+
+                <div
+                    data-aos="zoom-in" data-aos-anchor-placement="top-center"
+                    className="md:px-10 p-5 bg-[#131332] rounded-lg">
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input
+                            name="name"
+                            type="text"
+                            placeholder="Name"
+                            className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+                        />
+
+                        <input
+                            name="user_email"
+                            type="email"
+                            placeholder="Email Address"
+                            className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+                        />
+
+                        <input
+                            name="phone"
+                            type="text"
+                            placeholder="Mobile Number"
+                            className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+                        />
+
+                        <textarea
+                            name="message"
+                            placeholder="Your Message"
+                            className="px-4 mt-6 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-[10rem]"
+                        />
+
+                        <button type="submit" className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
+        </div >
         </>
     );
 };
